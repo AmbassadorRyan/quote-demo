@@ -1,9 +1,11 @@
 SHELL := /usr/bin/env bash
 
-GIT_COMMIT=$(shell git rev-parse --verify HEAD)
+#GIT_COMMIT=$(shell git rev-parse --verify HEAD)
 
-GOOS = $(shell go env GOOS)
-GOARCH = $(shell go env GOARCH)
+#GOOS = $(shell go env GOOS)
+GOOS = linux
+#GOARCH = $(shell go env GOARCH)
+GOARCH = amd64
 GOBUILD = go build -o bin/$(BINARY_BASENAME)-$(GOOS)-$(GOARCH)
 
 BINARY_BASENAME=qotm

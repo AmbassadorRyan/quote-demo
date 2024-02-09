@@ -4,7 +4,7 @@
 // you may not use this file except in compliance with the License.
 // You may obtain a copy of the License at
 //
-//     http://www.apache.org/licenses/LICENSE-2.0
+//	http://www.apache.org/licenses/LICENSE-2.0
 //
 // Unless required by applicable law or agreed to in writing, software
 // distributed under the License is distributed on an "AS IS" BASIS,
@@ -744,7 +744,7 @@ func main() {
 	}
 
 	startingQuotes := []string{
-		"Abstraction is ever present.",
+		/*"Abstraction is ever present.",
 		"A late night does not make any sense.",
 		"A principal idea is omnipresent, much like candy.",
 		"Nihilism gambles with lives, happiness, and even destiny itself!",
@@ -754,6 +754,14 @@ func main() {
 		"A small mercy is nothing at all?",
 		"The last sentence you read is often sensible nonsense.",
 		"668: The Neighbor of the Beast.",
+		*/
+
+		"Al Mal Tiempo, Buena Cara - When the Going Gets Rough, the Tough Get Going",
+		"Mas Vale Pájaro en Mano Que Cien Volando - A Bird in the Hand is Worth Two in the Bush",
+		"A los Tontos No les Dura el Dinero - A Fool and his Money Are Soon Parted",
+		"La Verdad Adelgaza, pero No Quiebra - The Truth May Be Stretched Thin, but It Never Breaks",
+		"Errar Es Humano, pero Más Lo Es Culpar de Ello a Otros - To Err Is Human, but It Is Even More So to Blame Others for It",
+		"Erst denken, dann handeln",
 	}
 
 	random := randomzeug.NewRandom()

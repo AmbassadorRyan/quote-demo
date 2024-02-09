@@ -2,8 +2,8 @@
 import './App.css';
 import axios from 'axios';
 import {useState} from 'react';
-import edgy from './edgy.png';
-import logo from './new_edgy.png'
+import edgy from './edgy_new.png';
+import logo from './amb-labs-logo.png'
 
 
 
@@ -38,7 +38,7 @@ function App() {
       <header className="App-header">
         {/* Replace the image with the Ambassador Logo by 
         replacing "edgy" with "logo" below */}
-        <img src={logo} alt="image" style={{width: "50%"}}/> 
+        <img src={edgy} alt="image" style={{width: "50%"}}/> 
         <div title={"Server: " + quote.server}>
         {quote.quote}
         </div>

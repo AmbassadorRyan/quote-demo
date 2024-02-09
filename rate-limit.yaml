@@ -28,7 +28,7 @@ spec:
     action: Enforce
     pattern:
     - headerkey: ""
-    rate: 10
+    rate: 3
     unit: minute
 
 
