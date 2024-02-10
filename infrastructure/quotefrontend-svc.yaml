@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: docker.io/marekojames5298/quote-front
+        image: docker.io/ambassadorryan/quote-frontend:1.0
         ports:
         - name: http
           containerPort: 80
