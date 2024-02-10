@@ -1,1 +1,3 @@
 config*
+quote-frontend/build*
+quote-frontend/node_modules*
