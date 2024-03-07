@@ -1,4 +1,5 @@
-FROM node:13.12.0-alpine as build
+FROM node:21-alpine3.18 as build
+
 # set working direction
 WORKDIR /app
 # add `/app/node_modules/.bin` to $PATH

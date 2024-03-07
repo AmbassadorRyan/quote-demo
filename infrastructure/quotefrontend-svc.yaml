@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: docker.io/ambassadorryan/quote-frontend:1.0
+        image: docker.io/ambassadorryan/quote-frontend:1.4
         ports:
         - name: http
           containerPort: 80
@@ -39,7 +39,7 @@ metadata:
     a8r.io/incidents: "https://www.getambassador.io/docs/cloud/latest/service-catalog/concepts/ir/#incident-response-in-the-cloud-native-world"
     a8r.io/uptime: "Link to external uptime dashboard"
     a8r.io/performance: "Link to external perf monitoring"
-    a8r.io/dependencies: "quote.default"
+    a8r.io/dependencies: "quote.ambassador"
 spec:
   ports:
   - name: http
